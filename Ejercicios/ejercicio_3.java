@@ -8,7 +8,7 @@ public class ejercicio_3 {
 
     public static void main(String[] args) {
         int contador = 0;
-        for(int i = 0; i<100;){
+        for(int i = 0; i<100;i++){
             if(i%5==0){
                 contador++;
             }
@@ -36,12 +36,6 @@ public class ejercicio_3 {
             System.out.println("Multiplo " +(i+1)+ ": " +arrayMult[i]);
         }
         return suma;
-    }
-
-    public static void imprimir(int [] arrayMult){
-        for(int i = 0; i<arrayMult.length; i++){
-            System.out.println("Multiplo " +(i+1)+ ": " +arrayMult[i]);
-        }
     }
 
 }
